@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brian Aquino - Frontend Developer Portfolio</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#home" class="logo">
+      <img src="LOGO.png" alt="Brian Aquino Logo">
+    </a>
+    <ul>
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Background bubbles layer -->
+  <div class="bg-bubbles" aria-hidden="true">
+    <div class="bubbles">
+      <span style="--i:11; --x1:8vw;  --y1:70vh; --x2:58vw; --y2:22vh; --x3:18vw; --y3:42vh;"></span>
+      <span style="--i:12; --x1:22vw; --y1:55vh; --x2:76vw; --y2:18vh; --x3:34vw; --y3:78vh;"></span>
+      <span style="--i:24; --x1:62vw; --y1:68vh; --x2:14vw; --y2:26vh; --x3:82vw; --y3:44vh;"></span>
+      <span style="--i:10; --x1:12vw; --y1:22vh; --x2:44vw; --y2:76vh; --x3:6vw;  --y3:52vh;"></span>
+      <span style="--i:14; --x1:74vw; --y1:30vh; --x2:40vw; --y2:64vh; --x3:86vw; --y3:16vh;"></span>
+      <span style="--i:23; --x1:30vw; --y1:80vh; --x2:88vw; --y2:42vh; --x3:54vw; --y3:14vh;"></span>
+      <span style="--i:18; --x1:48vw; --y1:12vh; --x2:10vw; --y2:58vh; --x3:70vw; --y3:78vh;"></span>
+      <span style="--i:16; --x1:84vw; --y1:74vh; --x2:26vw; --y2:34vh; --x3:66vw; --y3:22vh;"></span>
+      <span style="--i:19; --x1:6vw;  --y1:44vh; --x2:52vw; --y2:12vh; --x3:28vw; --y3:66vh;"></span>
+      <span style="--i:20; --x1:90vw; --y1:50vh; --x2:62vw; --y2:80vh; --x3:46vw; --y3:28vh;"></span>
+      <span style="--i:22; --x1:40vw; --y1:40vh; --x2:18vw; --y2:10vh; --x3:78vw; --y3:62vh;"></span>
+      <span style="--i:25; --x1:58vw; --y1:18vh; --x2:92vw; --y2:56vh; --x3:12vw; --y3:34vh;"></span>
+      <span style="--i:18; --x1:16vw; --y1:84vh; --x2:74vw; --y2:66vh; --x3:38vw; --y3:18vh;"></span>
+      <span style="--i:21; --x1:68vw; --y1:84vh; --x2:36vw; --y2:44vh; --x3:88vw; --y3:10vh;"></span>
+      <span style="--i:15; --x1:34vw; --y1:26vh; --x2:6vw;  --y2:80vh; --x3:62vw; --y3:56vh;"></span>
+      <span style="--i:13; --x1:80vw; --y1:16vh; --x2:54vw; --y2:34vh; --x3:24vw; --y3:72vh;"></span>
+      <span style="--i:26; --x1:10vw; --y1:10vh; --x2:84vw; --y2:40vh; --x3:50vw; --y3:86vh;"></span>
+      <span style="--i:17; --x1:52vw; --y1:60vh; --x2:24vw; --y2:16vh; --x3:76vw; --y3:44vh;"></span>
+      <span style="--i:13; --x1:92vw; --y1:22vh; --x2:70vw; --y2:74vh; --x3:40vw; --y3:10vh;"></span>
+      <span style="--i:28; --x1:26vw; --y1:48vh; --x2:46vw; --y2:88vh; --x3:6vw;  --y3:18vh;"></span>
+
+      <span style="--i:11; --x1:44vw; --y1:72vh; --x2:12vw; --y2:42vh; --x3:86vw; --y3:60vh;"></span>
+      <span style="--i:12; --x1:66vw; --y1:54vh; --x2:30vw; --y2:14vh; --x3:92vw; --y3:26vh;"></span>
+      <span style="--i:24; --x1:18vw; --y1:32vh; --x2:78vw; --y2:70vh; --x3:48vw; --y3:12vh;"></span>
+      <span style="--i:10; --x1:86vw; --y1:66vh; --x2:58vw; --y2:22vh; --x3:22vw; --y3:84vh;"></span>
+      <span style="--i:14; --x1:8vw;  --y1:24vh; --x2:40vw; --y2:58vh; --x3:72vw; --y3:18vh;"></span>
+      <span style="--i:23; --x1:50vw; --y1:86vh; --x2:90vw; --y2:40vh; --x3:14vw; --y3:64vh;"></span>
+      <span style="--i:18; --x1:72vw; --y1:12vh; --x2:26vw; --y2:70vh; --x3:60vw; --y3:44vh;"></span>
+      <span style="--i:16; --x1:28vw; --y1:10vh; --x2:66vw; --y2:46vh; --x3:10vw; --y3:78vh;"></span>
+      <span style="--i:19; --x1:94vw; --y1:78vh; --x2:44vw; --y2:34vh; --x3:76vw; --y3:16vh;"></span>
+      <span style="--i:20; --x1:36vw; --y1:60vh; --x2:6vw;  --y2:26vh; --x3:82vw; --y3:86vh;"></span>
+      <span style="--i:22; --x1:58vw; --y1:38vh; --x2:18vw; --y2:84vh; --x3:90vw; --y3:12vh;"></span>
+      <span style="--i:25; --x1:14vw; --y1:76vh; --x2:74vw; --y2:18vh; --x3:46vw; --y3:56vh;"></span>
+      <span style="--i:18; --x1:84vw; --y1:28vh; --x2:52vw; --y2:74vh; --x3:22vw; --y3:40vh;"></span>
+      <span style="--i:21; --x1:42vw; --y1:16vh; --x2:86vw; --y2:66vh; --x3:12vw; --y3:86vh;"></span>
+      <span style="--i:15; --x1:6vw;  --y1:56vh; --x2:64vw; --y2:12vh; --x3:34vw; --y3:78vh;"></span>
+      <span style="--i:13; --x1:76vw; --y1:44vh; --x2:24vw; --y2:26vh; --x3:90vw; --y3:60vh;"></span>
+      <span style="--i:26; --x1:20vw; --y1:86vh; --x2:50vw; --y2:46vh; --x3:84vw; --y3:18vh;"></span>
+      <span style="--i:17; --x1:60vw; --y1:24vh; --x2:10vw; --y2:64vh; --x3:70vw; --y3:86vh;"></span>
+      <span style="--i:13; --x1:88vw; --y1:10vh; --x2:40vw; --y2:34vh; --x3:16vw; --y3:72vh;"></span>
+      <span style="--i:28; --x1:32vw; --y1:40vh; --x2:92vw; --y2:22vh; --x3:52vw; --y3:84vh;"></span>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <section id="home" class="home">
+    <div class="home-content">
+      <h1>Brian Aquino</h1>
+      <h2>I'm a 
+            <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+            <span style="--i:3;" data-text="Designer">Designer</span>
+            <span style="--i:2;" data-text="Mobile App Developer">Mobile App Developer</span>
+            <span style="--i:1;" data-text="Competitive Programmer">Competitive Programmer</span>
+      </h2>
+      <p>
+        Technology exists to serve people. I build software that feels effortless to use, elegant in design, and solid in execution.
+        I treat every project as a chance to refine my fundamentals, challenge assumptions, and improve both my thinking and my craft.
+      </p>
+      <div class="btn-sci">
+        <a href="#" class="btn">Download CV</a>
+        <div class="sci">
+          <a href="https://github.com/BMAquino-lab" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.facebook.com/PapiGori" target="_blank"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="https://www.instagram.com/kuyabriiii/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h1>About Me</h1>
+      <div class="about-text">
+        <p>
+          A graduating Computer Science student at the University of the Philippines Los Baños, currently pursuing opportunities as a Frontend Software Engineer. I specialize in building responsive, user-focused web interfaces that thoughtfully balance usability, performance, and visual design.
+        </p>
+        <p>
+          The scopes of my interests center on modern frontend development, including UI/UX implementation, component-based architecture, accessibility, and performance optimization. I enjoy translating design concepts and functional requirements into intuitive, scalable web applications using contemporary frontend technologies.
+        </p>
+        <p>
+          I have collaborated with peers on technical projects and participate in initiatives that foster learning, innovation, and growth in software development.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="skills-content">
+      <h1>Skills</h1>
+      <div class="skills-grid">
+        <div class="skill-card" style="--delay: 0.1s;">
+          <div class="skill-icon">
+            <i class="bx bxl-html5"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Semantic markup and modern web standards</p>
+        </div>
+        
+        <div class="skill-card" style="--delay: 0.2s;">
+          <div class="skill-icon">
+            <i class="bx bxl-css3"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Responsive design and animations</p>
+        </div>
+        
+        <div class="skill-card" style="--delay: 0.3s;">
+          <div class="skill-icon">
+            <i class="bx bxl-javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>ES6+ and modern frameworks</p>
+        </div>
+        
+        <div class="skill-card" style="--delay: 0.4s;">
+          <div class="skill-icon">
+            <i class="bx bxl-react"></i>
+          </div>
+          <h3>React</h3>
+          <p>Component-based architecture</p>
+        </div>
+        
+        <div class="skill-card" style="--delay: 0.5s;">
+          <div class="skill-icon">
+            <i class="bx bxl-figma"></i>
+          </div>
+          <h3>Figma</h3>
+          <p>UI/UX design and prototyping</p>
+        </div>
+        
+        <div class="skill-card" style="--delay: 0.6s;">
+          <div class="skill-icon">
+            <i class="bx bxl-git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Version control and collaboration</p>
+        </div>
+        <div class="skill-card" style="--delay: 0.6s;">
+          <div class="skill-icon">
+            <i class="bx bxl-python"></i>
+          </div>
+          <h3>Python</h3>
+          <p>Web Development, Scripting and Automation</p>
+        </div>
+        <div class="skill-card" style="--delay: 0.6s;">
+          <div class="skill-icon">
+            <i class="bx bxl-java"></i>
+          </div>
+          <h3>Java</h3>
+          <p>Mobile and Web development</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="portfolio-content">
+      <h1>Portfolio</h1>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" style="--delay: 0.1s;">
+          <div class="portfolio-image">
+            <img src="portfolio website.jpg" alt="Portfolio Website">
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal portfolio showcasing my work and skills using HTML, CSS, and JavaScript with animated interactions and modern design principles.</p>
+            <div class="portfolio-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" style="--delay: 0.2s;">
+          <div class="portfolio-image">
+            <img src="fitness app.jpg" alt="Fitness Mobile App">
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Mobile App for Fitness</h3>
+            <p>A cross-platform fitness tracking application built with React Native, featuring workout plans, progress tracking, and personalized health insights.</p>
+            <div class="portfolio-tags">
+              <span>React Native</span>
+              <span>UI/UX</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" style="--delay: 0.3s;">
+          <div class="portfolio-image">
+            <img src="e-commerce.jpg" alt="E-commerce Dashboard">
+          </div>
+          <div class="portfolio-overlay">
+            <h3>E-commerce Dashboard</h3>
+            <p>An admin dashboard for e-commerce management with real-time analytics, inventory tracking, and order management built using React and Chart.js.</p>
+            <div class="portfolio-tags">
+              <span>React</span>
+              <span>API Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" style="--delay: 0.4s;">
+          <div class="portfolio-image">
+            <img src="task management system.png" alt="Task Management System">
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Task Management System</h3>
+            <p>A collaborative task management platform with drag-and-drop functionality, team collaboration features, and deadline tracking using modern web technologies.</p>
+            <div class="portfolio-tags">
+              <span>JavaScript</span>
+              <span>Node.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section -->
+  <section id="service" class="service">
+    <div class="service-content">
+      <h1>Services</h1>
+      <div class="services-grid">
+        <div class="service-card" style="--delay: 0.1s;">
+          <div class="service-icon">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <h3>Frontend Development</h3>
+          <p>Building responsive, modern web applications using HTML5, CSS3, JavaScript, and React. Focus on clean code, performance optimization, and cross-browser compatibility.</p>
+        </div>
+
+        <div class="service-card" style="--delay: 0.2s;">
+          <div class="service-icon">
+            <i class="bx bx-mobile-alt"></i>
+          </div>
+          <h3>Mobile App Development</h3>
+          <p>Creating cross-platform mobile applications with React Native, delivering native-like experiences for both iOS and Android platforms with a single codebase.</p>
+        </div>
+
+        <div class="service-card" style="--delay: 0.3s;">
+          <div class="service-icon">
+            <i class="bx bx-palette"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Designing intuitive and visually appealing user interfaces with Figma. Creating wireframes, prototypes, and design systems that enhance user experience.</p>
+        </div>
+
+        <div class="service-card" style="--delay: 0.4s;">
+          <div class="service-icon">
+            <i class="bx bx-desktop"></i>
+          </div>
+          <h3>Web Design</h3>
+          <p>Crafting beautiful, user-centered websites that combine aesthetics with functionality. Specializing in modern design trends and accessibility standards.</p>
+        </div>
+
+        <div class="service-card" style="--delay: 0.5s;">
+          <div class="service-icon">
+            <i class="bx bx-git-branch"></i>
+          </div>
+          <h3>Version Control & Collaboration</h3>
+          <p>Managing projects efficiently using Git and GitHub. Experienced in collaborative development workflows, code reviews, and agile methodologies.</p>
+        </div>
+
+        <div class="service-card" style="--delay: 0.6s;">
+          <div class="service-icon">
+            <i class="bx bx-line-chart"></i>
+          </div>
+          <h3>Performance Optimization</h3>
+          <p>Optimizing web applications for speed and efficiency. Implementing best practices for faster load times, better SEO, and enhanced user experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-content">
+      <h1>Get In Touch</h1>
+      <p class="contact-intro">Have a project in mind or want to collaborate? Feel free to reach out!</p>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item" style="--delay: 0.1s;">
+            <div class="contact-icon">
+              <i class="bx bx-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <p>09452339835</p>
+            </div>
+          </div>
+
+          <div class="contact-item" style="--delay: 0.2s;">
+            <div class="contact-icon">
+              <i class="bx bx-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>aquinobrianmichael@gmail.com</p>
+              <p>baaquino2@up.edu.ph</p>
+            </div>
+          </div>
+
+          <div class="contact-item" style="--delay: 0.3s;">
+            <div class="contact-icon">
+              <i class="bx bx-map"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>San Pablo City, Laguna, Philippines</p>
+            </div>
+          </div>
+
+          <div class="social-links" style="--delay: 0.4s;">
+            <h3>Connect With Me</h3>
+            <div class="social-icons">
+              <a href="https://github.com/BMAquino-lab" target="_blank" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://www.facebook.com/PapiGori" target="_blank" aria-label="Facebook">
+                <i class="bx bxl-facebook-circle"></i>
+              </a>
+              <a href="https://www.instagram.com/kuyabriiii/" target="_blank" aria-label="Instagram">
+                <i class="bx bxl-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container" style="--delay: 0.2s;">
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // Active navigation highlighting on scroll
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.navbar ul li');
+    const homeSection = document.getElementById('home');
+    const navbar = document.querySelector('.navbar');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      
+      // Add glass effect to navbar when scrolling
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+      
+      // Add blur effect when scrolled past home section
+      const homeBottom = homeSection.offsetTop + homeSection.clientHeight;
+      if (window.scrollY > homeBottom - 300) {
+        document.body.classList.add('scrolled');
+      } else {
+        document.body.classList.remove('scrolled');
+      }
+
+      // Update active navigation
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (scrollY >= (sectionTop - 200)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(li => {
+        li.classList.remove('active');
+        if (li.querySelector('a').getAttribute('href').substring(1) === current) {
+          li.classList.add('active');
+        }
+      });
+    });
+
+    // Contact form submission
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // Add your form submission logic here (e.g., send to backend, email service, etc.)
+        alert('Thank you for your message! I will get back to you soon.');
+        contactForm.reset();
+      });
+    }
+  </script>
+</body>
+
+</html>
