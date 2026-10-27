@@ -1,0 +1,14 @@
+.demo-notice{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.8rem 1.5rem;background:#e6f1ec;color:#173f36;font:14px/1.45 system-ui,sans-serif}
+.demo-notice a,.demo-notice button{color:#173f36;font-weight:700;white-space:nowrap}
+.demo-notice button{border:1px solid #76998a;border-radius:4px;padding:.45rem .7rem;background:transparent;cursor:pointer;font-size:13px}
+.demo-notice button:hover{background:#d4e8df}
+@media(max-width:700px){
+  .demo-notice{align-items:flex-start;flex-wrap:wrap}
+  .demo-notice span{order:3;flex-basis:100%}
+  .lto-navbar{padding:1rem!important;justify-content:flex-start!important}
+  .navbar-links{gap:.7rem!important;flex-wrap:wrap}
+  .nav-btn{font-size:.78rem!important}
+  .header-section{flex-direction:column;justify-content:center!important;gap:2rem!important}
+  .header-title{font-size:2.3rem!important}
+  .header-logo-img{max-width:220px!important}
+}
